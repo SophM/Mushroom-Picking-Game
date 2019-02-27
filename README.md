@@ -7,8 +7,8 @@ This game has a responsive layout and can be played on different devices!
 [Click me to check the game out!](https://sophm.github.io/Mushroom-Picking-Game/)
 
 I added two little features. At some point during the game, one of the mushrooms can become either:
-    - a "poisonous" mushroom. If the player clicks on it, a message will be displayed and new values will be assigned to the mushrooms.
-    - a "magic" mushroom. If the player clicks on it, a message will be displayed and the values of the mushroom will be revealed.
+- a "poisonous" mushroom. If the player clicks on it, a message will be displayed and new values will be assigned to the mushrooms.
+- a "magic" mushroom. If the player clicks on it, a message will be displayed and the values of the mushroom will be revealed.
 
 A round ends when the player matches the number of harvested mushrooms or when she/he goes over. At the end of a round, the game starts over automatically, everything is reset and a new number of harvested mushrooms to match is displayed on the screen.
 
