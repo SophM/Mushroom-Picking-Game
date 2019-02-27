@@ -6,42 +6,72 @@
     <meta charset="UTF-8"/>
     <!-- for responsive layout -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-    <!-- link the css files - starting by the reset one -->
+    <!-- link the css files - starting by the bootstrap one -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <title>Unit-4 Game</title>
+    <title>Mushroom-Picking Game</title>
 </head>
 
-<body>
+<body class="bg-info text-white">
 
     <div class="container mt-3">
 
-        <h1 class="text-center">Unit-4 game</h1>
+        <h1 id="title" class="text-center w-50 mx-auto">Mushroom Picking</h1>
         <br>
-        <h2 class=>Click on any button to get started!</h2>
+        <h4 id="instruction" class="text-center">Click on the mushrooms to match the harvest!</h4>
 
         <br><br>
 
-        <div class="row text-center ml-5">
-            <div id="word" class="col-sm-5">
-                <h1>Number to match</h1>
+        <div class="row text-center">
+            <div id="word" class="col-sm-6">
+                <h2>-- Harvest to match --</h2>
                 <h1 id="computer-number"></h1>
             </div>
-            <div id="buttons" class="col-sm-7">
-                les boutons
-                <button id="btn-1" class="btn">Number 1</button>
-                <button id="btn-2" class="btn">Number 2</button>
-                <button id="btn-3" class="btn">Number 3</button>
-                <button id="btn-4" class="btn">Number 4</button>
+            <div class="col-sm-6">
+                <h2>-- Your harvest --</h2>
+                <h1 id="player-number"></h1>
+                <button id="btn-1" class="btn">
+                    <img src="assets/images/mushroom-1.png"/>
+                    <div id="caption-btn-1" class="caption text-white"></div>
+                </button>
+
+                <button id="btn-2" class="btn">
+                    <img src="assets/images/mushroom-4.png"/>
+                    <div id="caption-btn-2" class="caption text-white"></div>
+                </button>
+
+                <button id="btn-3" class="btn">
+                    <img src="assets/images/mushroom-3.png"/>
+                    <div id="caption-btn-3" class="caption text-white"></div>
+                </button>
+
+                <button id="btn-4" class="btn">
+                    <img src="assets/images/mushroom-2.png"/>
+                    <div id="caption-btn-4" class="caption text-white"></div>
+                </button>
             </div>
         </div>
 
-        <br><br>
-        
-        <h2>Your number: <span id="player-number"></span></h2>
+        <br>
 
-        <h2>Wins: <span id="number-win">0</span></h2>
-        <h2>Losses: <span id="number-loss">0</span></h2>
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3 id="text-surprise"></h3>
+            </div>
+        </div>
+
+        <br>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center">Wins: <span id="number-win">0</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center">Losses: <span id="number-loss">0</span></h2>
+            </div>
+        </div>
 
     </div>
 
