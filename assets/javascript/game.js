@@ -85,9 +85,9 @@ function resetPlayerNumber() {
     $("#player-number").text(playerNumber);
 };
 
-// function to generate random number between 1 and 6 - for the surprise
+// function to generate random number between 3 and 8 - for the surprise
 function resetNumberForSurprise() {
-    numberForSurprise = Math.floor(Math.random() * 6) + 1;
+    numberForSurprise = Math.floor(Math.random() * 6) + 3;
 };
 
 
@@ -100,7 +100,7 @@ function resetNumberForSurprise() {
 // the computer gets a random number
 computerRandom();
 console.log("computer number: " + computerNumber);
-// generate random number between 1 and 6 - for the surprise
+// generate random number between 3 and 8 - for the surprise
 resetNumberForSurprise();
 console.log("number of clicks for surprise: " + numberForSurprise);
 // each button get a random number, which become their value
