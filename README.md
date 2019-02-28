@@ -24,16 +24,16 @@ Below are screenshots of the game.
 
 ### Screenshot of the game at the beginning - large screen layout
 
-![Screenshot of the game at the beginning - large screen layout](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot-beginning-large-screen.png?raw=true)
+![Screenshot of the game at the beginning - large screen layout](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot-beginning-large-screens.png?raw=true)
 
 ---
 
 ### Screenshot of the game at the beginning - small-screen/mobile layout
 
-![Screenshot of the game at the beginning - small-screen/mobile layout](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot-beginnin-small-mobile-screen.png?raw=true)
+![Screenshot of the game at the beginning - small-screen/mobile layout](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot-beginning-small-mobile-screens.png?raw=true)
 
 ---
 
 ### Screenshot of the game after the player clicked on a "magic" mushroom
 
-![Screenshot of the game after the player clicked on a "magic" mushroom](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot-magic-mushroom.png?raw=true)
+![Screenshot of the game after the player clicked on a "magic" mushroom](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot_for_example_surprise_magic-mushroom.png?raw=true)
