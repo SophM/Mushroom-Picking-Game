@@ -14,7 +14,7 @@ A round ends when the player matches the number of harvested mushrooms or when s
 
 To build this game, I used the following technologies:
 - HTML
-- Javascript
+- jQuery
 - CSS
 - Bootstrap
 
