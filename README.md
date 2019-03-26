@@ -37,3 +37,9 @@ Below are screenshots of the game.
 ### Screenshot of the game after the player clicked on a "magic" mushroom
 
 ![Screenshot of the game after the player clicked on a "magic" mushroom](https://github.com/SophM/Mushroom-Picking-Game/blob/master/assets/screenshots_for_readme/screenshot_for_example_surprise_magic-mushroom.png?raw=true)
+
+--- 
+
+### Contribution
+
+- Sophie Mallez
